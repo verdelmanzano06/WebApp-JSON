@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>JSON example</title>
+<script language="javascript" >
+
+ var os1 = { "platform" : "Windows", 
+ 			 "version" : "Windows 7", 
+ 			 "type_of_machine" : "Desktop" 
+ 			};
+
+ var os2 = { "platform" : "Linux", 
+ 			 "version" : " Ubuntu 12.03", 
+ 			 "type_of_machine" : "Laptop" 
+ 			};
+
+ 		document.write("<h1>Operating Systems</h1>");
+ 		document.write("<table border='5' cellpadding='5'>");
+ 		document.write("<tr>");
+ 		document.write("<th>Platform</th>");
+ 		document.write("<th>Version</th>");
+ 		document.write("<th>Type of Machine</th>");
+ 		document.write("</tr>");
+ 		document.write("<tr>");
+ 		document.write("<td>" + os1.platform + "</td>");
+ 		document.write("<td>" + os1.version + "</td>");
+ 		document.write("<td>" + os1.type_of_machine + "</td></tr>");
+ 		document.write("<tr>");
+ 		document.write("<td>" + os2.platform + "</td>");
+ 		document.write("<td>" + os2.version + "</td>");
+ 		document.write("<td>" + os2.type_of_machine + "</td></tr>");
+
+
+ </script>
+</head>
+<body>
+</body>
+</html>
